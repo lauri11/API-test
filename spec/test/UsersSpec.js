@@ -2,7 +2,7 @@ let userApi = require('./../../apiHelper/users.api');
 let UserApi = new userApi({uri: 'https://api.github.com'});
 const assert = require('assert');
 
-describe('', function () {
+describe('Test', function () {
     it('should get a single user', function () {
         return UserApi.getSingleUser('lauri11')
             .then(function (res) {
