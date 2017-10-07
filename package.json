@@ -1,0 +1,19 @@
+{
+  "name": "GithubTest",
+  "version": "1.0.0",
+  "description": "API Test Scenarios",
+  "main": "index.js",
+  "devDependencies": {
+    "request": "2.82.0",
+    "request-promise": "latest",
+    "lodash": "^4.17.4"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/jasmine-node --junitreport --captureExceptions spec"
+  },
+  "author": "Elena Korzhuk",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
