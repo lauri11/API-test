@@ -6,14 +6,15 @@
   "devDependencies": {
     "request": "2.82.0",
     "request-promise": "latest",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "mocha": "^4.0.1",
+    "jasmine": "^2.8.0",
+    "jasmine-reporters": "^2.2.1"
   },
   "scripts": {
-    "test": "node_modules/.bin/jasmine-node --junitreport --captureExceptions spec"
+    "test": "node ./bin/jasmine_runner.js"
   },
   "author": "Elena Korzhuk",
   "license": "ISC",
-  "dependencies": {
-    "jasmine-node": "^1.14.5"
-  }
+  "dependencies": {}
 }

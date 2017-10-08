@@ -17,10 +17,12 @@ describe('Test', function () {
             });
     });
 
-    it('should get and authenticated user', function () {
+    it('should get an authenticated user', function () {
         return UserApi.getAuthenticatedUser()
-            .then(res => {
-                console.log(res);
-            });
+            .then(res => console.log(res));
+    });
+
+    it('should fail', function () {
+        return new Promise((resolve, reject) => reject("Rejected"));
     });
 });
